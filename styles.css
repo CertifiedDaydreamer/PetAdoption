@@ -5,6 +5,9 @@ body{
   color: white;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 .header-wrapper{
   background: #001D37;
   padding-left: 16px;
