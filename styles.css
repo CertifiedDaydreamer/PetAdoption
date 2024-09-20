@@ -171,7 +171,9 @@ html{
   color: #9F9F9F;
   cursor: pointer;
 }
-
+h3{
+  color:black;
+}
 .pet-filter button:hover {
   color: #7d7d7d;
 }
