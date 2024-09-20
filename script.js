@@ -58,4 +58,12 @@ function handleButtonClick(e) {
   e.target.classList.add("active")
 
   // actually filter the pets down below
+  const currentFilter = e.target.dataset.filter
+  document.querySelectorAll(".pet-card").forEach(el => {
+    if (currentFilter == el.dataset.species || currentFilter == "all") {
+      el.style.display = "grid"
+    } else {
+      el.style.display = "none"
+    }
+  })
 }
